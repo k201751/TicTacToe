@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="messageBox" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <div style="display: block; page-break-before: always; align-items: center;">
+            <h2 id="Result">Custom Message Box</h2>
+            <button id="reloadButton" onclick="reloadPage()">
+                <img src="reload.png" style="height: 60px;" alt="Button Image">
+            </button>
+            </div>
+        </div>
+    </div>
+    <h1 id="Heading">Tic <span style="color: rgb(223, 194, 49); padding-right: 10px; padding-left: 10px;">Tac</span> Toe</h1>
+
+    <div id="row1">
+        <button id="button1" class="button" onclick="markButton(id)"></button>
+        <button id="button2" class="button" onclick="markButton(id)"></button>
+        <button id="button3" class="button" onclick="markButton(id)"></button>
+    </div>
+    <div id="row2">
+        <button id="button4" class="button" onclick="markButton(id)"></button>
+        <button id="button5" class="button" onclick="markButton(id)"></button>
+        <button id="button6" class="button" onclick="markButton(id)"></button>
+    </div>
+    <div id="row3">
+        <button id="button7" class="button" onclick="markButton(id)"></button>
+        <button id="button8" class="button" onclick="markButton(id)"></button>
+        <button id="button9" class="button" onclick="markButton(id)"></button>
+    </div>
+    
+    <script src="./js/markButton.js"></script>
+</body>
+</html>
