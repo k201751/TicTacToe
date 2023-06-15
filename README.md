@@ -21,7 +21,7 @@ This is a simple web-based Tic Tac Toe game implemented using HTML, CSS, and Jav
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/tic-tac-toe.git`
+1. Clone the repository: `git clone https://github.com/k201751/TicTacToe.git`
 2. Open the `index.html` file in a web browser.
 
 ## Technologies Used
