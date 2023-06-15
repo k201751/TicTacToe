@@ -30,7 +30,3 @@ This is a simple web-based Tic Tac Toe game implemented using HTML, CSS, and Jav
 - CSS
 - JavaScript
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
