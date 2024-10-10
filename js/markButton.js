@@ -46,12 +46,14 @@ function markButton(id){
     
     if(i%2==0){
         if (!button.textContent.trim()) {
+            document.getElementById('turn').innerText = '\"X\'s\" Turn'
             button.textContent = "O";
             i++;
           }
     }
     else{
         if (!button.textContent.trim()) {
+            document.getElementById('turn').innerText = '\"O\'s\" Turn'
             button.textContent = "X";
             i++;
           }

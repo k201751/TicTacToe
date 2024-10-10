@@ -1,15 +1,19 @@
 @import url(https://db.onlinewebfonts.com/c/0d49fc455f4a8951a42daf952412a713?family=Helvetica+Neue+Regular); 
 body h1{
-font-family: "Helvetica Neue";
-display: flex;
-font-size: 45px;
-justify-content: center;
-color: aliceblue;
-padding: 30px;
+    font-family: "Poppins";
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    color: rgba(11, 22, 43, 0.954);
+    padding: 30px;
 }
 
 body{
     background-color: rgba(11, 22, 43, 0.954);
+    font-family: "Poppins";
+    background: linear-gradient(90deg, rgba(11, 22, 43, 0.815), rgba(62, 62, 62, 0.208),rgba(11, 22, 43, 0.815)), url("../bg.jpg");
+    background-size: cover;
+    /*background-image: url("../bg.jpg");*/
 }
 
 body div{ 
@@ -57,7 +61,7 @@ body div #reloadButton:hover{
     align-items: center;
   }
 .button{
-background-color: aliceblue;
+background-color: rgb(255, 255, 255);
 width: 60px;
 height: 60px;
 border-radius: 20%;
